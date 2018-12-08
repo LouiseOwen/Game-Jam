@@ -25,6 +25,9 @@ namespace UnityStandardAssets._2D
         private static int m_SnowflakeCount = 0;
         [SerializeField] private TextMeshProUGUI m_TEXTSnowflakeCount;
 
+        private static int m_NumLives = 5;
+        [SerializeField] private TextMeshProUGUI m_TEXTNumLives;
+
 
         private void Awake()
         {
@@ -34,13 +37,13 @@ namespace UnityStandardAssets._2D
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
-            SetSnowflakeCountText();
+            SetUIText();
         }
 
 
         void Update()
         {
-            SetSnowflakeCountText();
+            SetUIText();
         }
 
 
@@ -133,12 +136,18 @@ namespace UnityStandardAssets._2D
                 m_SnowflakeCount++;
                 Destroy(other.gameObject);
             }
+
+            if (other.gameObject.CompareTag("Present"))
+            {
+                m_SnowflakeCount += 10;
+            }
         }
 
 
-        void SetSnowflakeCountText()
+        void SetUIText()
         {
             m_TEXTSnowflakeCount.text = m_SnowflakeCount.ToString();
+            m_TEXTNumLives.text = m_NumLives.ToString();
         }
 
     }
