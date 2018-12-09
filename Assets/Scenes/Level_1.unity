@@ -240,7 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7071893}
   - component: {fileID: 7071894}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -315,7 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14150223}
   - component: {fileID: 14150224}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30769684}
   - component: {fileID: 30769685}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -730,7 +730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 40643101}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Fifth Ground Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1073,7 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91353553}
   - component: {fileID: 91353554}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1148,7 +1148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93514882}
   - component: {fileID: 93514883}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1333,7 +1333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 128854583}
   - component: {fileID: 128854584}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1408,7 +1408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129765187}
   - component: {fileID: 129765188}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1635,7 +1635,7 @@ GameObject:
   - component: {fileID: 148381626}
   m_Layer: 9
   m_Name: IceBox
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1708,7 +1708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158327039}
   - component: {fileID: 158327040}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1783,7 +1783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170026230}
   - component: {fileID: 170026231}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1933,7 +1933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219525470}
   - component: {fileID: 219525471}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2010,7 @@ GameObject:
   - component: {fileID: 257759160}
   m_Layer: 9
   m_Name: IceBox (2)
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2158,7 +2158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270487716}
   - component: {fileID: 270487717}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2321,7 +2321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 281517092}
   - component: {fileID: 281517093}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2503,6 +2503,135 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &298208904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298208909}
+  - component: {fileID: 298208908}
+  - component: {fileID: 298208907}
+  - component: {fileID: 298208906}
+  - component: {fileID: 298208905}
+  m_Layer: 8
+  m_Name: Snowball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &298208905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298208904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d7b0ced985c0f49a267a9021c7b8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_WallCheck: {fileID: 1492568071}
+  m_WhatIsWall:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!50 &298208906
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298208904}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 2.54469
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &298208907
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298208904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.9
+--- !u!212 &298208908
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298208904}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1498381997
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8ed63e917e570134d8f14c204cbc6efb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.24, y: 2.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &298208909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 298208904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 38, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1492568071}
+  m_Father: {fileID: 1183033570}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &311030618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2709,7 +2838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 324594909}
   - component: {fileID: 324594910}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2887,7 +3016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336165606}
   - component: {fileID: 336165607}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3105,7 +3234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351209225}
   - component: {fileID: 351209226}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3309,7 +3438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370258081}
   - component: {fileID: 370258082}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3459,7 +3588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394713226}
   - component: {fileID: 394713227}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3534,7 +3663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 412053859}
   - component: {fileID: 412053860}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3609,7 +3738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 433936571}
   - component: {fileID: 433936572}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3737,7 +3866,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437427572}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: First Ground Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4192,7 +4321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485255300}
   - component: {fileID: 485255301}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4296,7 +4425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 489409081}
   - component: {fileID: 489409082}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4432,6 +4561,34 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491506485}
   m_CullTransparentMesh: 0
+--- !u!1 &497436422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497436423}
+  m_Layer: 8
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497436423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 497436422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1275944744}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4531,7 +4688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 536420650}
   - component: {fileID: 536420651}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4681,7 +4838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 540430385}
   - component: {fileID: 540430386}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4756,7 +4913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547756146}
   - component: {fileID: 547756147}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4906,7 +5063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553356331}
   - component: {fileID: 553356332}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4981,7 +5138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560902554}
   - component: {fileID: 560902555}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5211,7 +5368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 568083790}
   - component: {fileID: 568083791}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5319,7 +5476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582372959}
   - component: {fileID: 582372960}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5394,7 +5551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 585864292}
   - component: {fileID: 585864293}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5469,7 +5626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586612730}
   - component: {fileID: 586612731}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5576,7 +5733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593152459}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Third Ground Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5788,7 +5945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621790224}
   - component: {fileID: 621790225}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5863,7 +6020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 629275685}
   - component: {fileID: 629275686}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6088,7 +6245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 652205737}
   - component: {fileID: 652205738}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6205,6 +6362,18 @@ Prefab:
       propertyPath: m_TEXTNumLives
       value: 
       objectReference: {fileID: 566305813}
+    - target: {fileID: 5000000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_AirControl
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
+      propertyPath: m_WhatIsGround.m_Bits
+      value: 1591
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87a2357765801c34292d6718d8b4d770, type: 2}
   m_IsPrefabAsset: 0
@@ -6217,7 +6386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663873729}
   - component: {fileID: 663873730}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6523,7 +6692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 694690494}
   - component: {fileID: 694690495}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6671,7 +6840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709530669}
   - component: {fileID: 709530670}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6955,7 +7124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 724791384}
   - component: {fileID: 724791385}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7062,7 +7231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759119706}
   - component: {fileID: 759119707}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7212,7 +7381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 772823949}
   - component: {fileID: 772823950}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7287,7 +7456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 778838488}
   - component: {fileID: 778838489}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7362,7 +7531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786837726}
   - component: {fileID: 786837727}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7437,7 +7606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 794853072}
   - component: {fileID: 794853073}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7512,7 +7681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 796169961}
   - component: {fileID: 796169962}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8262,7 +8431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 896686981}
   - component: {fileID: 896686982}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8391,7 +8560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 914050672}
   - component: {fileID: 914050673}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8552,7 +8721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937814206}
   - component: {fileID: 937814207}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8627,7 +8796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938250801}
   - component: {fileID: 938250802}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8803,7 +8972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972693752}
   - component: {fileID: 972693753}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8878,7 +9047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 980731109}
   - component: {fileID: 980731110}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8953,7 +9122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986936840}
   - component: {fileID: 986936841}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9028,7 +9197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 997198549}
   - component: {fileID: 997198550}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9157,7 +9326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1010256578}
   - component: {fileID: 1010256579}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9232,7 +9401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1016082355}
   - component: {fileID: 1016082356}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9406,7 +9575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030829297}
   - component: {fileID: 1030829298}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9624,7 +9793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1053045935}
   - component: {fileID: 1053045936}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9748,7 +9917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063419519}
   - component: {fileID: 1063419520}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10102,7 +10271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1106490379}
   - component: {fileID: 1106490380}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10176,7 +10345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1107116800}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Fourth Ground Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10283,7 +10452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116327116}
   - component: {fileID: 1116327117}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10358,7 +10527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1118369533}
   - component: {fileID: 1118369534}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10433,7 +10602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122328037}
   - component: {fileID: 1122328038}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10508,7 +10677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1133555040}
   - component: {fileID: 1133555041}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10583,7 +10752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141792783}
   - component: {fileID: 1141792784}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10658,7 +10827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1149396728}
   - component: {fileID: 1149396729}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10724,6 +10893,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1183033569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183033570}
+  m_Layer: 8
+  m_Name: Snowballs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1183033570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1183033569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 298208909}
+  - {fileID: 2086746404}
+  - {fileID: 1275944744}
+  m_Father: {fileID: 1220037262}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1188780926
 GameObject:
   m_ObjectHideFlags: 0
@@ -10764,7 +10964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1193324513}
   - component: {fileID: 1193324514}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10839,7 +11039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1195898646}
   - component: {fileID: 1195898647}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10914,7 +11114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1206394208}
   - component: {fileID: 1206394209}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10989,7 +11189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217469433}
   - component: {fileID: 1217469434}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11055,6 +11255,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1220037261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220037262}
+  m_Layer: 8
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220037262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1220037261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1183033570}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1232072763
 GameObject:
   m_ObjectHideFlags: 0
@@ -11097,7 +11326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1236376552}
   - component: {fileID: 1236376553}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11172,7 +11401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1238882840}
   - component: {fileID: 1238882841}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11247,7 +11476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245328078}
   - component: {fileID: 1245328079}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11322,7 +11551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245383375}
   - component: {fileID: 1245383376}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11770,6 +11999,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1265871545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1265871546}
+  m_Layer: 8
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1265871546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1265871545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2086746404}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1267144067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 87a2357765801c34292d6718d8b4d770,
@@ -11784,7 +12041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1271174676}
   - component: {fileID: 1271174677}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11850,6 +12107,135 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1275944743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1275944744}
+  - component: {fileID: 1275944748}
+  - component: {fileID: 1275944747}
+  - component: {fileID: 1275944746}
+  - component: {fileID: 1275944745}
+  m_Layer: 8
+  m_Name: Snowball (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1275944744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275944743}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 96, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 497436423}
+  m_Father: {fileID: 1183033570}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275944745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275944743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d7b0ced985c0f49a267a9021c7b8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_WallCheck: {fileID: 497436423}
+  m_WhatIsWall:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!50 &1275944746
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275944743}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 2.54469
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &1275944747
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275944743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.9
+--- !u!212 &1275944748
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1275944743}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1498381997
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8ed63e917e570134d8f14c204cbc6efb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.24, y: 2.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1281708195
 GameObject:
   m_ObjectHideFlags: 0
@@ -11859,7 +12245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1281708196}
   - component: {fileID: 1281708197}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12124,7 +12510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341209216}
   - component: {fileID: 1341209217}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12480,7 +12866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1430563725}
   - component: {fileID: 1430563726}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12650,7 +13036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439826542}
   - component: {fileID: 1439826543}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12800,7 +13186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1459186020}
   - component: {fileID: 1459186021}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12931,7 +13317,7 @@ GameObject:
   - component: {fileID: 1468267643}
   m_Layer: 9
   m_Name: IceBox (1)
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13004,7 +13390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477447255}
   - component: {fileID: 1477447256}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13225,6 +13611,34 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1482860791}
   m_CullTransparentMesh: 0
+--- !u!1 &1492568070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492568071}
+  m_Layer: 8
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1492568071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1492568070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 298208909}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1493464500
 GameObject:
   m_ObjectHideFlags: 0
@@ -13311,7 +13725,7 @@ GameObject:
   - component: {fileID: 1503347960}
   m_Layer: 9
   m_Name: IceBox (3)
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13384,7 +13798,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505511725}
   - component: {fileID: 1505511726}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13616,7 +14030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547721364}
   - component: {fileID: 1547721365}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13722,7 +14136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1558466424}
   - component: {fileID: 1558466425}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13853,7 +14267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1616398048}
   - component: {fileID: 1616398049}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13927,7 +14341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1626378796}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Second Ground Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14067,7 +14481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1635407525}
   - component: {fileID: 1635407526}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14196,7 +14610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653921171}
   - component: {fileID: 1653921172}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14271,7 +14685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654775398}
   - component: {fileID: 1654775399}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14448,7 +14862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659265082}
   - component: {fileID: 1659265083}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14628,7 +15042,7 @@ GameObject:
   - component: {fileID: 1672681500}
   m_Layer: 9
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14679,7 +15093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1693585726}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14713,7 +15127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700651545}
   - component: {fileID: 1700651546}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14842,7 +15256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705297348}
   - component: {fileID: 1705297349}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +15331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706763768}
   - component: {fileID: 1706763769}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14992,7 +15406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733866875}
   - component: {fileID: 1733866876}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15170,7 +15584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1774694953}
   - component: {fileID: 1774694954}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15245,7 +15659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1776078079}
   - component: {fileID: 1776078080}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15422,7 +15836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806112843}
   - component: {fileID: 1806112844}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15497,7 +15911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817458142}
   - component: {fileID: 1817458143}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16049,7 +16463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870752308}
   - component: {fileID: 1870752309}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16124,7 +16538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871551154}
   - component: {fileID: 1871551155}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16330,7 +16744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1905281491}
   - component: {fileID: 1905281492}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16606,7 +17020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1949152869}
   - component: {fileID: 1949152870}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16681,7 +17095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951209855}
   - component: {fileID: 1951209856}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16756,7 +17170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951998165}
   - component: {fileID: 1951998166}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16885,7 +17299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972944088}
   - component: {fileID: 1972944089}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17064,7 +17478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2014342006}
   - component: {fileID: 2014342007}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17139,7 +17553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017996192}
   - component: {fileID: 2017996193}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17282,7 +17696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042463413}
   - component: {fileID: 2042463414}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17553,7 +17967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2070208869}
   - component: {fileID: 2070208870}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17628,7 +18042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2082594231}
   - component: {fileID: 2082594232}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17778,7 +18192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2086336066}
   - component: {fileID: 2086336067}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17844,6 +18258,135 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2086746403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086746404}
+  - component: {fileID: 2086746408}
+  - component: {fileID: 2086746407}
+  - component: {fileID: 2086746406}
+  - component: {fileID: 2086746405}
+  m_Layer: 8
+  m_Name: Snowball (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086746404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086746403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 67, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1265871546}
+  m_Father: {fileID: 1183033570}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086746405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086746403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d7b0ced985c0f49a267a9021c7b8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_WallCheck: {fileID: 1265871546}
+  m_WhatIsWall:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!50 &2086746406
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086746403}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 2.54469
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &2086746407
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086746403}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.9
+--- !u!212 &2086746408
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086746403}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1498381997
+  m_SortingLayer: 2
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 8ed63e917e570134d8f14c204cbc6efb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.24, y: 2.25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2099835040
 GameObject:
   m_ObjectHideFlags: 0
@@ -17853,7 +18396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099835041}
   - component: {fileID: 2099835042}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: 2 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17960,7 +18503,7 @@ GameObject:
   - component: {fileID: 2130528370}
   m_Layer: 9
   m_Name: First Platform
-  m_TagString: Untagged
+  m_TagString: Ice
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
