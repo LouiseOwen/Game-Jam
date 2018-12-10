@@ -40,6 +40,7 @@ namespace UnityStandardAssets._2D
         private BoxCollider2D m_BoxCollider2D;
         private CircleCollider2D m_CircleCollider2D;
         [SerializeField] private GameObject m_GameOver;
+        [SerializeField] private GameObject m_End;
 
 
         private void Awake()
@@ -202,6 +203,11 @@ namespace UnityStandardAssets._2D
             if (other.gameObject.CompareTag("Present"))
             {
                 m_SnowflakeCount += 10;
+            }
+
+            if (other.gameObject.CompareTag("End"))
+            {
+                m_End.SetActive(true);
             }
         }
 

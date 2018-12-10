@@ -9,6 +9,7 @@ TagManager:
   - Present
   - Ice
   - Snowball
+  - End
   layers:
   - Default
   - TransparentFX
