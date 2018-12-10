@@ -24,9 +24,22 @@ namespace UnityStandardAssets._2D
 
         private static int m_SnowflakeCount = 0;
         [SerializeField] private TextMeshProUGUI m_TEXTSnowflakeCount;
-
+        
         private static int m_NumLives = 5;
         [SerializeField] private TextMeshProUGUI m_TEXTNumLives;
+
+        private int m_PlayerHealth = 100;
+        private bool m_FlashActive = false;
+        private const float k_FlashLength = 0.25f; // MIGHT BE CONST
+        private float m_FlashCounter = 0.0f;
+        private SpriteRenderer m_PlayerSprite;
+        [SerializeField] private Slider m_HealthBar;
+        private Collider2D m_SnowballToIgnore;
+        private const float k_IgnoreLength = 1.0f;
+        private float m_IgnoreCounter = 0.0f;
+        private BoxCollider2D m_BoxCollider2D;
+        private CircleCollider2D m_CircleCollider2D;
+        [SerializeField] private GameObject m_GameOver;
 
 
         private void Awake()
@@ -36,6 +49,9 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+            m_PlayerSprite = GetComponent<SpriteRenderer>();
+            m_BoxCollider2D = GetComponent<BoxCollider2D>();
+            m_CircleCollider2D = GetComponent<CircleCollider2D>();
 
             SetUIText();
         }
@@ -44,6 +60,51 @@ namespace UnityStandardAssets._2D
         void Update()
         {
             SetUIText();
+            m_HealthBar.value = m_PlayerHealth;
+            if (m_HealthBar.value <= 0)
+            {
+                m_GameOver.SetActive(true);
+                Time.timeScale = 0.0f;
+            }
+
+            if (m_FlashActive)
+            {
+                if (m_FlashCounter > k_FlashLength * 0.66f)
+                {
+                    m_PlayerSprite.color = new Color(m_PlayerSprite.color.r, m_PlayerSprite.color.g, m_PlayerSprite.color.b, 0.0f);
+                }
+                else if (m_FlashCounter > k_FlashLength * 0.33f)
+                {
+                    m_PlayerSprite.color = new Color(m_PlayerSprite.color.r, m_PlayerSprite.color.g, m_PlayerSprite.color.b, 1.0f);
+                }
+                else if (m_FlashCounter > 0.0f)
+                {
+                    m_PlayerSprite.color = new Color(m_PlayerSprite.color.r, m_PlayerSprite.color.g, m_PlayerSprite.color.b, 0.0f);
+                }
+                else
+                {
+                    m_PlayerSprite.color = new Color(m_PlayerSprite.color.r, m_PlayerSprite.color.g, m_PlayerSprite.color.b, 1.0f);
+                    m_FlashActive = false;
+                }
+
+                m_FlashCounter -= Time.deltaTime;
+            }
+
+            if (m_SnowballToIgnore != null)
+            {
+                if (m_IgnoreCounter > 0.0f)
+                {
+                    Physics2D.IgnoreCollision(m_SnowballToIgnore, m_BoxCollider2D, true);
+                    Physics2D.IgnoreCollision(m_SnowballToIgnore, m_CircleCollider2D, true);
+                    m_IgnoreCounter -= Time.deltaTime;
+                }
+                else
+                {
+                    Physics2D.IgnoreCollision(m_SnowballToIgnore, m_BoxCollider2D, false);
+                    Physics2D.IgnoreCollision(m_SnowballToIgnore, m_CircleCollider2D, false);
+                }
+            }
+
         }
 
 
@@ -145,10 +206,30 @@ namespace UnityStandardAssets._2D
         }
 
 
+        private void OnCollisionEnter2D(Collision2D col)
+        {
+            if (col.gameObject.CompareTag("Snowball"))
+            {
+                m_SnowballToIgnore = col.collider;
+                m_IgnoreCounter = k_IgnoreLength;
+                HurtPlayer(10);
+            }
+        }
+
+
         void SetUIText()
         {
             m_TEXTSnowflakeCount.text = m_SnowflakeCount.ToString();
             m_TEXTNumLives.text = m_NumLives.ToString();
+        }
+
+
+        void HurtPlayer(int damageToGive)
+        {
+            m_PlayerHealth -= damageToGive;
+
+            m_FlashActive = true;
+            m_FlashCounter = k_FlashLength;
         }
 
     }

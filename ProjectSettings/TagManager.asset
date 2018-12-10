@@ -8,6 +8,7 @@ TagManager:
   - Crate
   - Present
   - Ice
+  - Snowball
   layers:
   - Default
   - TransparentFX
